@@ -1,0 +1,31 @@
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+.main input,
+.main select {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.main input {
+  width: 60%;
+  padding: 8px;
+  margin: 10px 10px 10px 0;
+}
+
+.main input:focus {
+  outline: none;
+}
+
+.main select {
+  padding: 6px;
+}
+
+.main select:focus {
+  outline: none;
+}
