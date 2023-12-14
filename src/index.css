@@ -7,5 +7,6 @@ body {
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: rgb(0, 0, 0);
-  background: url('./img/flat-lay-finances-elements-composition.jpg') center;
+  background: rgb(196, 196, 229)
+    url('./img/flat-lay-finances-elements-composition.jpg');
 }

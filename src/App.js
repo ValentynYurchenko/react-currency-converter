@@ -47,12 +47,16 @@ function App() {
     return <h1 className="error-message">Error: {error}</h1>;
   }
 
-  return isLoading ? (
-    <h1 className="loading-message">Loading...</h1>
-  ) : (
-    <div className="App">
-      <Header dataNbu={banksData[0]} dataMono={banksData[1]} />
-      <Main dataNbu={banksData[0]} />
+  return (
+    <div className="page">
+      {isLoading ? (
+        <h1 className="loading-message">Loading...</h1>
+      ) : (
+        <div className="App">
+          <Header dataNbu={banksData[0]} dataMono={banksData[1]} />
+          <Main dataNbu={banksData[0]} />
+        </div>
+      )}
     </div>
   );
 }
